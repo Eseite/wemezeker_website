@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(about.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 0.1px;
+  background-attachment: fixed;
+  background-size: 100vmax;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+/* Header */
+header {
+  position: fixed;
+  display: flex;
+  /*max-width: 100%;*/
+  /*padding: 40px 0px 20px 20px;*/
+  background: rgba(6, 6, 23, 0.8);
+  margin-bottom: 15%;
+  width: 1350px;
+  top: 0;
+  /*margin-top: -200px;*/
+  transition: top 0.5s;
+}
+.navbar .hide{
+  transform: translateY(-100%);
+}
+#logo{
+  padding-left: 20px;
+  border-radius: 5px;
+}
+header h1 {
+  text-shadow: black 3px 3px 5px;
+  padding-top: 15px;
+  font-family: "Adobe Caslon Pro", serif;
+}
+header h1:hover {
+  color:  rgb(182, 114, 35);
+  text-shadow: none;
+}
+header nav {
+  margin-left: 40px;
+  padding-top: 30px;
+  padding-left: 150px;
+  display: inline;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.2em 0.5em;
+  font-size: 20px;
+  display: inline;
+}
+nav ul li a:hover {
+  color:  rgb(182, 114, 35);  
+}
+nav ul li a:active {
+  color:  rgb(182, 114, 35);  
+  text-decoration: underline;
+}
+#icon{
+   display: inline;
+  padding: 0.2em 8em;
+
+}
+#icon ul li a {
+  padding: 0.2em 0.1em;
+}
+#history{
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+  height:2650px;
+  width: 1000px;
+  background-color: black;
+  opacity: 0.8;
+  margin-top: 200px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-family: poppins;
+}
+section h1{
+  font-size: 60px;
+  color:  rgb(182, 114, 35);  
+
+}
+#title{
+  font-size: 30px;
+  text-align: center;
+  color:  rgb(182, 114, 35);  
+
+}
+#para{
+  font-size: 18px;
+}
+#pic{
+  display: inline-block; 
+}
+#pic:hover{
+  opacity: 0.5;
+}
+footer {
+  background: rgb(0, 0, 0);
+}
+.footerDesgin {
+  font-size: 22px;
+  padding: 36px 40px 40px 0%;
+  text-align: center;
+  color: white;
+  height: 70px;
+  background: rgba(53, 53, 54, 0.09);
+}

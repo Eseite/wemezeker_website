@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  body {
+    background-image: url(books.png);
+    background-attachment: fixed;
+    background-size: 100vmax;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .container {
+    height: 50vmax;
+  }
+  /* Header */
+  header {
+    position: fixed;
+    display: flex;
+    /*max-width: 100%;
+    padding: 0px 0px 20px 20px;*/
+    background: rgba(6, 6, 23, 0.5);
+    top: 0;
+    /*margin-top: -120px;*/
+    width: 1350px;
+    transition: top 0.5s;
+  }
+  #logo{
+    padding-left: 20px;
+    border-radius: 5px;
+  }
+  header h1 {
+    text-shadow: black 3px 3px 5px;
+    padding-top: 15px;
+    font-family: "Adobe Caslon Pro", serif;
+  }
+  header h1:hover {
+    color:  rgb(182, 114, 35);
+    text-shadow: none;
+  }
+  header nav {
+    margin-left: 40px;
+    padding-top: 30px;
+    padding-left: 150px;
+    display: inline;
+  }
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+  }
+  nav ul li {
+    display: inline;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.2em 0.5em;
+    font-size: 20px;
+    display: inline;
+  }
+  nav ul li a:hover {
+    color:  rgb(182, 114, 35);
+  }
+  nav ul li a:active {
+    color:  rgb(182, 114, 35);  
+    text-decoration: underline;
+  }
+  #icon{
+     display: inline;
+     padding: 0.2em 13em;
+  }
+  #icon ul li a {
+    padding: 0.2em 0.1em;
+  }
+  #box{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    height:500px;
+    width: 700px;
+    background-color: black;
+    opacity: 0.8;
+    margin: 100px auto;
+  }
+  section{
+    padding-top: 50px;
+  }
+  .navbar-form{
+     padding-left: 500px;
+  }
+  .search{
+    height: 23px;
+  }
+  footer {
+    background: rgb(0, 0, 0);
+  }
+  .footerDesgin {
+    font-size: 22px;
+    padding: 36px 40px 40px 0%;
+    text-align: center;
+    color: white;
+    height: 70px;
+    background: rgba(53, 53, 54, 0.09);
+  }

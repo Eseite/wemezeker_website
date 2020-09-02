@@ -1,0 +1,128 @@
+ * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(home1.jpg);
+  background-size: 100vmax;
+  background-position-y: -150px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  background: rgba(0, 0, 0, 0.32);
+  height: 50vmax;
+}
+/* Header */
+header {
+  position: fixed;
+  display: flex;
+  /*max-width: 100%;*/
+  /*padding: 40px 0px 20px 20px;*/
+  background: rgba(6, 6, 23, 0.8);
+  margin-bottom: 15%;
+  width: 1350px;
+  transition: top 0.5s;
+}
+#logo{
+  padding-left: 20px;
+  border-radius: 5px;
+}
+header h1 {
+  text-shadow: black 3px 3px 5px;
+  padding-top: 15px;
+  font-family: "Adobe Caslon Pro", serif;
+}
+header h1:hover {
+  color:  rgb(182, 114, 35);
+  text-shadow: none;
+}
+header nav {
+  margin-left: 40px;
+  padding-top: 30px;
+  padding-left: 150px;
+  display: inline;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.2em 0.5em;
+  font-size: 20px;
+  display: inline;
+}
+nav ul li a:hover {
+  color:  rgb(182, 114, 35);
+}
+nav ul li a:active {
+  color:  rgb(182, 114, 35);  
+  text-decoration: underline;
+}
+#icon{
+   display: inline;
+  padding: 0.2em 8em;
+
+}
+#icon ul li a {
+  padding: 0.2em 0.1em;
+}
+/*Section*/
+section h1 {
+  color:  rgb(182, 114, 35);
+  text-shadow: black 3px 3px 5px;
+  font-size: 100px;
+  /*margin-left: 150px;*/
+  /*margin-bottom: 10%;*/
+  padding-top: 270px;
+}
+section p {
+  font-size: 30px;
+  text-shadow: black 3px 3px 5px;
+  color: white;
+}
+.display {
+  height: 30vmax;
+  background-color: rgb(46, 44, 44);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10% 0;
+  color:  rgb(182, 114, 35);
+  text-shadow: black 3px 3px 5px;  
+}
+#time{
+    height: 80px;
+    width: 300px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: -120px;
+    margin-left: 500px;
+}
+footer {
+  background: rgb(0, 0, 0);
+}
+.footerDesgin {
+  font-size: 22px;
+  padding: 36px 40px 40px 0%;
+  text-align: center;
+  color: white;
+  height: 70px;
+  background: rgba(53, 53, 54, 0.09);
+}
+#events h1{
+  font-family:  Chiller;
+  font-size: 50px;
+  text-align: justify;
+  padding-left: 20px;
+}
+
